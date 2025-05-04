@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Détection d'Émotions par IA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-container">
+                <h1 class="logo">
+                    <span class="logo-ce">Face</span>
+                    <span class="logo-feels">Feels</span>
+                </h1>
+                <div class="logo-subtitle">AI Emotion Detector</div>
+            </div>
+            <p class="subtitle">Upload a photo to detect emotions and match music</p>
+        </header>
+        <main>
+            <section class="upload-section">
+                <h2><i class="fas fa-upload"></i> Upload a photo</h2>
+                <div class="upload-area" id="uploadArea">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <p>Drag a photo or click to search</p>
+                    <input type="file" id="fileInput" accept="image/*">
+                </div>
+                <button id="analyzeBtn" class="btn" disabled>
+                    <i class="fas fa-search"></i> Analyse
+                </button>
+                <div class="preview-container">
+                    <img id="imagePreview" class="image-preview">
+                </div>
+            </section>
+
+            <section class="result-section">
+                <h2><i class="fas fa-chart-bar"></i> Results</h2>
+                <div class="result-content" id="resultContent">
+                    <p class="placeholder">Results will appear here</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
