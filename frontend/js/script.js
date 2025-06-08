@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Icones des émotions
     const emotionIcons = {
         happy: 'fa-face-smile',
-        sadness: 'fa-face-sad-tear',
+        sad: 'fa-face-sad-tear',
         anger: 'fa-face-angry',
         surprise: 'fa-face-surprise',
         contempt: 'fa-face-meh',
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Couleurs des émotions
     const emotionColors = {
         happy: '#4CAF50',
-        sadness: '#2196F3',
+        sad: '#2196F3',
         anger: '#F44336',
         surprise: '#FFC107',
         contempt: '#9E9E9E',

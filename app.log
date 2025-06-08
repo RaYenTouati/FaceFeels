@@ -1,0 +1,104 @@
+2025-05-23 22:03:57,889 - __main__ - INFO - Starting application initialization...
+2025-05-23 22:03:57,889 - __main__ - INFO - Starting model training process...
+2025-05-23 22:03:57,986 - __main__ - INFO - Detected emotion classes: {'anger': 958, 'contempt': 1233, 'disgust': 111, 'fear': 1024, 'happy': 1774, 'sad': 1247, 'surprise': 831}
+2025-05-23 22:03:58,044 - __main__ - INFO - Using 1311 images (max 200 per class)
+2025-05-23 22:03:58,440 - __main__ - INFO - Processed 100/1311 images
+2025-05-23 22:03:58,754 - __main__ - INFO - Processed 200/1311 images
+2025-05-23 22:03:59,047 - __main__ - INFO - Processed 300/1311 images
+2025-05-23 22:04:10,665 - __main__ - INFO - Starting application initialization...
+2025-05-23 22:04:10,665 - __main__ - INFO - Starting model training process...
+2025-05-23 22:04:10,719 - __main__ - INFO - Detected emotion classes: {'anger': 958, 'contempt': 1233, 'disgust': 111, 'fear': 1024, 'happy': 1774, 'sad': 1247, 'surprise': 831}
+2025-05-23 22:04:10,754 - __main__ - INFO - Using 1311 images (max 200 per class)
+2025-05-23 22:04:10,977 - __main__ - INFO - Processed 100/1311 images
+2025-05-23 22:04:11,283 - __main__ - INFO - Processed 200/1311 images
+2025-05-23 22:04:11,467 - __main__ - INFO - Processed 300/1311 images
+2025-05-23 22:04:11,702 - __main__ - INFO - Processed 400/1311 images
+2025-05-23 22:04:11,887 - __main__ - INFO - Processed 500/1311 images
+2025-05-23 22:04:12,138 - __main__ - INFO - Processed 600/1311 images
+2025-05-23 22:04:12,322 - __main__ - INFO - Processed 700/1311 images
+2025-05-23 22:04:12,680 - __main__ - INFO - Processed 800/1311 images
+2025-05-23 22:04:12,880 - __main__ - INFO - Processed 900/1311 images
+2025-05-23 22:04:13,048 - __main__ - INFO - Processed 1000/1311 images
+2025-05-23 22:04:13,253 - __main__ - INFO - Processed 1100/1311 images
+2025-05-23 22:04:13,435 - __main__ - INFO - Processed 1200/1311 images
+2025-05-23 22:04:13,738 - __main__ - INFO - Processed 1300/1311 images
+2025-05-23 22:04:13,756 - __main__ - INFO - Feature extraction completed in 3.09 seconds
+2025-05-23 22:04:13,767 - __main__ - INFO - Normalizing features...
+2025-05-23 22:04:13,859 - __main__ - INFO - Training set: 917 samples
+2025-05-23 22:04:13,865 - __main__ - INFO - Test set: 394 samples
+2025-05-23 22:04:13,865 - __main__ - INFO - Training SVM classifier...
+2025-05-23 22:04:21,471 - __main__ - INFO - Training completed in 7.60 seconds
+2025-05-23 22:04:24,054 - __main__ - INFO - Model performance - Train: 100.00%, Test: 36.04%
+2025-05-23 22:04:24,069 - __main__ - INFO - Application ready to receive requests
+2025-05-23 22:04:25,440 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.18:5000
+2025-05-23 22:04:25,442 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-23 22:05:32,248 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 22:05:32] "POST /api/predict HTTP/1.1" 200 -
+2025-05-23 22:06:19,587 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 22:06:19] "POST /api/predict HTTP/1.1" 200 -
+2025-05-23 22:14:52,164 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 22:14:52] "POST /api/predict HTTP/1.1" 200 -
+2025-06-07 21:24:31,631 - __main__ - INFO - Starting application initialization...
+2025-06-07 21:24:31,632 - __main__ - INFO - Starting model training process...
+2025-06-07 21:24:31,795 - __main__ - INFO - Detected emotion classes: {'anger': 958, 'contempt': 1233, 'disgust': 111, 'fear': 1024, 'happy': 1774, 'sad': 1247, 'surprise': 831}
+2025-06-07 21:24:31,881 - __main__ - INFO - Using 1311 images (max 200 per class)
+2025-06-07 21:24:32,315 - __main__ - INFO - Processed 100/1311 images
+2025-06-07 21:24:32,709 - __main__ - INFO - Processed 200/1311 images
+2025-06-07 21:24:33,076 - __main__ - INFO - Processed 300/1311 images
+2025-06-07 21:24:33,459 - __main__ - INFO - Processed 400/1311 images
+2025-06-07 21:24:33,882 - __main__ - INFO - Processed 500/1311 images
+2025-06-07 21:24:34,279 - __main__ - INFO - Processed 600/1311 images
+2025-06-07 21:24:34,662 - __main__ - INFO - Processed 700/1311 images
+2025-06-07 21:24:35,027 - __main__ - INFO - Processed 800/1311 images
+2025-06-07 21:24:35,373 - __main__ - INFO - Processed 900/1311 images
+2025-06-07 21:24:35,756 - __main__ - INFO - Processed 1000/1311 images
+2025-06-07 21:24:36,122 - __main__ - INFO - Processed 1100/1311 images
+2025-06-07 21:24:36,397 - __main__ - INFO - Processed 1200/1311 images
+2025-06-07 21:24:36,620 - __main__ - INFO - Processed 1300/1311 images
+2025-06-07 21:24:36,650 - __main__ - INFO - Feature extraction completed in 5.02 seconds
+2025-06-07 21:24:36,661 - __main__ - INFO - Normalizing features...
+2025-06-07 21:24:36,740 - __main__ - INFO - Training set: 917 samples
+2025-06-07 21:24:36,741 - __main__ - INFO - Test set: 394 samples
+2025-06-07 21:24:36,741 - __main__ - INFO - Training SVM classifier...
+2025-06-07 21:24:44,403 - __main__ - INFO - Training completed in 7.66 seconds
+2025-06-07 21:24:46,402 - __main__ - INFO - Model performance - Train: 100.00%, Test: 36.04%
+2025-06-07 21:24:46,413 - __main__ - INFO - Application ready to receive requests
+2025-06-07 21:24:47,877 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.13:5000
+2025-06-07 21:24:47,877 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-07 21:25:00,433 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 21:25:00] "POST /api/predict HTTP/1.1" 200 -
+2025-06-07 21:25:13,559 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 21:25:13] "POST /api/predict HTTP/1.1" 200 -
+2025-06-07 21:25:22,395 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 21:25:22] "POST /api/predict HTTP/1.1" 200 -
+2025-06-08 21:40:17,312 - __main__ - INFO - Starting application initialization...
+2025-06-08 21:40:17,312 - __main__ - INFO - Starting model training process...
+2025-06-08 21:40:17,476 - __main__ - INFO - Detected emotion classes: {'anger': 958, 'contempt': 1233, 'disgust': 111, 'fear': 1024, 'happy': 1774, 'sad': 1247, 'surprise': 831}
+2025-06-08 21:40:17,538 - __main__ - INFO - Using 1311 images (max 200 per class)
+2025-06-08 21:40:17,856 - __main__ - INFO - Processed 100/1311 images
+2025-06-08 21:40:18,144 - __main__ - INFO - Processed 200/1311 images
+2025-06-08 21:40:18,398 - __main__ - INFO - Processed 300/1311 images
+2025-06-08 21:40:18,643 - __main__ - INFO - Processed 400/1311 images
+2025-06-08 21:40:18,890 - __main__ - INFO - Processed 500/1311 images
+2025-06-08 21:40:19,160 - __main__ - INFO - Processed 600/1311 images
+2025-06-08 21:40:19,460 - __main__ - INFO - Processed 700/1311 images
+2025-06-08 21:40:19,777 - __main__ - INFO - Processed 800/1311 images
+2025-06-08 21:40:20,096 - __main__ - INFO - Processed 900/1311 images
+2025-06-08 21:40:20,376 - __main__ - INFO - Processed 1000/1311 images
+2025-06-08 21:40:20,734 - __main__ - INFO - Processed 1100/1311 images
+2025-06-08 21:40:21,082 - __main__ - INFO - Processed 1200/1311 images
+2025-06-08 21:40:21,285 - __main__ - INFO - Processed 1300/1311 images
+2025-06-08 21:40:21,313 - __main__ - INFO - Feature extraction completed in 4.00 seconds
+2025-06-08 21:40:21,322 - __main__ - INFO - Normalizing features...
+2025-06-08 21:40:21,396 - __main__ - INFO - Training set: 917 samples
+2025-06-08 21:40:21,396 - __main__ - INFO - Test set: 394 samples
+2025-06-08 21:40:21,397 - __main__ - INFO - Training SVM classifier...
+2025-06-08 21:40:34,245 - __main__ - INFO - Training completed in 12.85 seconds
+2025-06-08 21:40:36,571 - __main__ - INFO - Model performance - Train: 100.00%, Test: 36.04%
+2025-06-08 21:40:36,580 - __main__ - INFO - Application ready to receive requests
+2025-06-08 21:40:37,982 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.13:5000
+2025-06-08 21:40:37,984 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-08 21:40:43,741 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 21:40:43] "POST /api/predict HTTP/1.1" 200 -
