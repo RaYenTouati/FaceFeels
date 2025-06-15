@@ -102,3 +102,273 @@
  * Running on http://192.168.1.13:5000
 2025-06-08 21:40:37,984 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
 2025-06-08 21:40:43,741 - werkzeug - INFO - 127.0.0.1 - - [08/Jun/2025 21:40:43] "POST /api/predict HTTP/1.1" 200 -
+2025-06-10 15:31:07,096 - __main__ - INFO - Starting application initialization...
+2025-06-10 15:31:07,097 - __main__ - INFO - Starting model training process...
+2025-06-10 15:31:07,129 - __main__ - INFO - Detected emotion classes: {'anger': 958, 'contempt': 54, 'disgust': 111, 'fear': 1024, 'happy': 1774, 'sadness': 1247, 'surprise': 831}
+2025-06-10 15:31:07,144 - __main__ - INFO - Using 1165 images (max 200 per class)
+2025-06-10 15:31:07,303 - __main__ - INFO - Processed 100/1165 images
+2025-06-10 15:31:07,437 - __main__ - INFO - Processed 200/1165 images
+2025-06-10 15:31:07,584 - __main__ - INFO - Processed 300/1165 images
+2025-06-10 15:31:07,729 - __main__ - INFO - Processed 400/1165 images
+2025-06-10 15:31:07,894 - __main__ - INFO - Processed 500/1165 images
+2025-06-10 15:31:08,054 - __main__ - INFO - Processed 600/1165 images
+2025-06-10 15:31:08,208 - __main__ - INFO - Processed 700/1165 images
+2025-06-10 15:31:08,361 - __main__ - INFO - Processed 800/1165 images
+2025-06-10 15:31:08,498 - __main__ - INFO - Processed 900/1165 images
+2025-06-10 15:31:08,651 - __main__ - INFO - Processed 1000/1165 images
+2025-06-10 15:31:08,781 - __main__ - INFO - Processed 1100/1165 images
+2025-06-10 15:31:08,865 - __main__ - INFO - Feature extraction completed in 1.77 seconds
+2025-06-10 15:31:08,874 - __main__ - INFO - Normalizing features...
+2025-06-10 15:31:08,935 - __main__ - INFO - Training set: 815 samples
+2025-06-10 15:31:08,935 - __main__ - INFO - Test set: 350 samples
+2025-06-10 15:31:08,936 - __main__ - INFO - Training SVM classifier...
+2025-06-10 15:31:10,712 - __main__ - INFO - Training completed in 1.78 seconds
+2025-06-10 15:31:11,606 - __main__ - INFO - Model performance - Train: 100.00%, Test: 40.57%
+2025-06-10 15:31:11,613 - __main__ - INFO - Application ready to receive requests
+2025-06-10 15:31:12,591 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.23:5000
+2025-06-10 15:31:12,592 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-10 15:31:20,440 - werkzeug - INFO - 192.168.1.23 - - [10/Jun/2025 15:31:20] "[33mGET / HTTP/1.1[0m" 404 -
+2025-06-10 15:31:32,147 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2025 15:31:32] "POST /api/predict HTTP/1.1" 200 -
+2025-06-10 15:31:35,860 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2025 15:31:35] "POST /api/predict HTTP/1.1" 200 -
+2025-06-10 15:32:49,671 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2025 15:32:49] "POST /api/predict HTTP/1.1" 200 -
+2025-06-10 15:35:37,228 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2025 15:35:37] "POST /api/predict HTTP/1.1" 200 -
+2025-06-10 15:35:41,201 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2025 15:35:41] "POST /api/predict HTTP/1.1" 200 -
+2025-06-10 15:35:47,360 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2025 15:35:47] "POST /api/predict HTTP/1.1" 200 -
+2025-06-10 15:41:54,586 - __main__ - INFO - Starting advanced emotion recognition application...
+2025-06-10 15:41:54,587 - __main__ - INFO - No pre-trained model found, training new model...
+2025-06-10 15:41:54,587 - __main__ - INFO - Starting advanced model training process...
+2025-06-10 15:41:54,630 - __main__ - INFO - Face detector initialized successfully
+2025-06-10 15:41:55,477 - __main__ - INFO - Detected emotion classes: {'anger': 958, 'contempt': 54, 'disgust': 111, 'fear': 1024, 'happy': 1774, 'sad': 1247, 'surprise': 831}
+2025-06-10 15:41:55,477 - __main__ - INFO - Using 0 images for training
+2025-06-10 15:41:55,477 - __main__ - INFO - Starting parallel feature extraction...
+2025-06-10 15:41:55,480 - __main__ - CRITICAL - Application failed to start: Not enough valid images for training (got 0, need at least 10)
+2025-06-10 15:44:30,406 - __main__ - INFO - Starting advanced emotion recognition application...
+2025-06-10 15:44:30,408 - __main__ - INFO - No pre-trained model found, training new model...
+2025-06-10 15:44:30,408 - __main__ - INFO - Starting advanced model training process...
+2025-06-10 15:44:30,408 - __main__ - INFO - Diagnosing dataset at: C:\Users\ALPHA\Desktop\CK+49
+2025-06-10 15:44:31,278 - __main__ - INFO - Found 5999 image files
+2025-06-10 15:44:31,314 - __main__ - INFO - Successfully read 5/5 test images
+2025-06-10 15:44:31,329 - __main__ - INFO - Dataset structure:
+2025-06-10 15:44:31,329 - __main__ - INFO -   anger: 958 images
+2025-06-10 15:44:31,329 - __main__ - INFO -   contempt: 54 images
+2025-06-10 15:44:31,330 - __main__ - INFO -   disgust: 111 images
+2025-06-10 15:44:31,330 - __main__ - INFO -   fear: 1024 images
+2025-06-10 15:44:31,330 - __main__ - INFO -   happy: 1774 images
+2025-06-10 15:44:31,330 - __main__ - INFO -   sad: 1247 images
+2025-06-10 15:44:31,330 - __main__ - INFO -   surprise: 831 images
+2025-06-10 15:44:31,330 - __main__ - CRITICAL - Application failed to start: name 'initialize_face_detector' is not defined
+2025-06-10 15:46:20,366 - __main__ - INFO - Starting application initialization...
+2025-06-10 15:46:20,369 - __main__ - ERROR - Error loading model: [Errno 2] No such file or directory: 'models\\emotion_model.joblib'
+2025-06-10 15:46:20,369 - __main__ - INFO - No saved model found, training new model...
+2025-06-10 15:46:20,369 - __main__ - INFO - Starting model training process...
+2025-06-10 15:46:20,483 - __main__ - INFO - Detected emotion classes: {'anger': 958, 'contempt': 54, 'disgust': 111, 'fear': 1024, 'happy': 1774, 'sad': 1247, 'surprise': 831}
+2025-06-10 15:46:20,499 - __main__ - INFO - Using 1165 images (max 200 per class)
+2025-06-10 15:46:24,479 - __main__ - INFO - Processed 100/1165 images
+2025-06-10 15:46:29,526 - __main__ - INFO - Processed 200/1165 images
+2025-06-10 15:46:33,570 - __main__ - INFO - Processed 300/1165 images
+2025-06-10 15:46:37,261 - __main__ - INFO - Processed 400/1165 images
+2025-06-10 15:46:40,642 - __main__ - INFO - Processed 500/1165 images
+2025-06-10 15:46:43,946 - __main__ - INFO - Processed 600/1165 images
+2025-06-10 15:46:47,303 - __main__ - INFO - Processed 700/1165 images
+2025-06-10 15:46:50,617 - __main__ - INFO - Processed 800/1165 images
+2025-06-10 15:46:54,049 - __main__ - INFO - Processed 900/1165 images
+2025-06-10 15:46:57,513 - __main__ - INFO - Processed 1000/1165 images
+2025-06-10 15:47:01,134 - __main__ - INFO - Processed 1100/1165 images
+2025-06-10 15:47:03,425 - __main__ - INFO - Feature extraction completed in 43.06 seconds
+2025-06-10 15:47:03,444 - __main__ - INFO - Normalizing features...
+2025-06-10 15:47:03,569 - __main__ - INFO - Training set: 2796 samples
+2025-06-10 15:47:03,569 - __main__ - INFO - Test set: 699 samples
+2025-06-10 15:47:03,570 - __main__ - INFO - Testing SVM...
+2025-06-10 15:52:28,843 - __main__ - INFO - Starting application initialization...
+2025-06-10 15:52:28,844 - __main__ - WARNING - No pre-trained model or scaler found. Model will be trained.
+2025-06-10 15:52:28,844 - __main__ - INFO - Starting model training process...
+2025-06-10 15:52:28,845 - __main__ - ERROR - No images found in the dataset directory. Please check DATASET_PATH.
+2025-06-10 15:52:28,845 - __main__ - CRITICAL - Application failed to start: No images found in the dataset directory
+2025-06-10 15:53:50,682 - __main__ - INFO - Starting application initialization...
+2025-06-10 15:53:50,683 - __main__ - WARNING - No pre-trained model or scaler found. Model will be trained.
+2025-06-10 15:53:50,683 - __main__ - INFO - Starting model training process...
+2025-06-10 15:53:50,684 - __main__ - ERROR - No images found in the dataset directory. Please check DATASET_PATH.
+2025-06-10 15:53:50,684 - __main__ - CRITICAL - Application failed to start: No images found in the dataset directory
+2025-06-10 15:54:10,229 - __main__ - INFO - Starting application initialization...
+2025-06-10 15:54:10,229 - __main__ - WARNING - No pre-trained model or scaler found. Model will be trained.
+2025-06-10 15:54:10,229 - __main__ - INFO - Starting model training process...
+2025-06-10 15:54:10,357 - __main__ - INFO - Detected emotion classes: {'anger': 958, 'contempt': 54, 'disgust': 111, 'fear': 1024, 'happy': 1774, 'sad': 1247, 'surprise': 831}
+2025-06-10 15:54:10,374 - __main__ - INFO - Using 1165 images for training (max 200 per class)
+2025-06-10 15:54:10,587 - __main__ - INFO - Processed 100/1165 images for feature extraction
+2025-06-10 15:54:10,743 - __main__ - INFO - Processed 200/1165 images for feature extraction
+2025-06-10 15:54:11,016 - __main__ - INFO - Processed 300/1165 images for feature extraction
+2025-06-10 15:54:11,155 - __main__ - INFO - Processed 400/1165 images for feature extraction
+2025-06-10 15:54:11,296 - __main__ - INFO - Processed 500/1165 images for feature extraction
+2025-06-10 15:54:11,434 - __main__ - INFO - Processed 600/1165 images for feature extraction
+2025-06-10 15:54:11,567 - __main__ - INFO - Processed 700/1165 images for feature extraction
+2025-06-10 15:54:11,703 - __main__ - INFO - Processed 800/1165 images for feature extraction
+2025-06-10 15:54:11,841 - __main__ - INFO - Processed 900/1165 images for feature extraction
+2025-06-10 15:54:11,975 - __main__ - INFO - Processed 1000/1165 images for feature extraction
+2025-06-10 15:54:12,108 - __main__ - INFO - Processed 1100/1165 images for feature extraction
+2025-06-10 15:54:12,203 - __main__ - INFO - Normalizing features...
+2025-06-10 15:54:12,265 - __main__ - INFO - Training set: 815 samples
+2025-06-10 15:54:12,265 - __main__ - INFO - Test set: 350 samples
+2025-06-10 15:54:12,266 - __main__ - INFO - Training SVM classifier...
+2025-06-10 15:54:15,319 - __main__ - INFO - Training completed in 3.05 seconds
+2025-06-10 15:54:16,820 - __main__ - INFO - Model performance - Train: 100.00%, Test: 44.86%
+2025-06-10 15:54:16,841 - __main__ - INFO - Model saved to model/svm_model.joblib
+2025-06-10 15:54:16,841 - __main__ - INFO - Scaler saved to model/scaler.joblib
+2025-06-10 15:54:16,848 - __main__ - INFO - Application ready to receive requests.
+2025-06-10 15:54:17,781 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.23:5000
+2025-06-10 15:54:17,782 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-10 15:54:29,109 - __main__ - INFO - Prediction for im15.png took 0.0055 seconds.
+2025-06-10 15:54:29,110 - __main__ - INFO - Deleted uploaded file: static/uploads\im15.png
+2025-06-10 15:54:29,111 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2025 15:54:29] "POST /api/predict HTTP/1.1" 200 -
+2025-06-10 15:54:33,257 - __main__ - INFO - Prediction for im4.png took 0.0050 seconds.
+2025-06-10 15:54:33,257 - __main__ - INFO - Deleted uploaded file: static/uploads\im4.png
+2025-06-10 15:54:33,258 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2025 15:54:33] "POST /api/predict HTTP/1.1" 200 -
+2025-06-10 15:54:45,385 - __main__ - INFO - Prediction for im9.png took 0.0050 seconds.
+2025-06-10 15:54:45,385 - __main__ - INFO - Deleted uploaded file: static/uploads\im9.png
+2025-06-10 15:54:45,386 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2025 15:54:45] "POST /api/predict HTTP/1.1" 200 -
+2025-06-10 15:55:04,077 - __main__ - INFO - Prediction for im143.png took 0.0040 seconds.
+2025-06-10 15:55:04,078 - __main__ - INFO - Deleted uploaded file: static/uploads\im143.png
+2025-06-10 15:55:04,078 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2025 15:55:04] "POST /api/predict HTTP/1.1" 200 -
+2025-06-10 15:55:05,496 - __main__ - INFO - Prediction for im143.png took 0.0050 seconds.
+2025-06-10 15:55:05,496 - __main__ - INFO - Deleted uploaded file: static/uploads\im143.png
+2025-06-10 15:55:05,497 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2025 15:55:05] "POST /api/predict HTTP/1.1" 200 -
+2025-06-10 15:55:27,696 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2025 15:55:27] "[31m[1mPOST /api/predict HTTP/1.1[0m" 400 -
+2025-06-10 15:55:28,827 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2025 15:55:28] "[31m[1mPOST /api/predict HTTP/1.1[0m" 400 -
+2025-06-10 15:55:35,967 - __main__ - INFO - Prediction for im150.png took 0.0050 seconds.
+2025-06-10 15:55:35,967 - __main__ - INFO - Deleted uploaded file: static/uploads\im150.png
+2025-06-10 15:55:35,967 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2025 15:55:35] "POST /api/predict HTTP/1.1" 200 -
+2025-06-10 15:58:37,463 - __main__ - INFO - Starting application initialization...
+2025-06-10 15:58:37,517 - __main__ - INFO - Model and scaler loaded successfully.
+2025-06-10 15:58:37,518 - __main__ - INFO - Application ready to receive requests.
+2025-06-10 15:58:38,425 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.23:5000
+2025-06-10 15:58:38,426 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-10 16:01:06,201 - __main__ - INFO - Prediction for image_2025-06-10_160104820.png took 0.0350 seconds.
+2025-06-10 16:01:06,201 - __main__ - INFO - Deleted uploaded file: static/uploads\image_2025-06-10_160104820.png
+2025-06-10 16:01:06,202 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2025 16:01:06] "POST /api/predict HTTP/1.1" 200 -
+2025-06-10 16:01:24,830 - __main__ - INFO - Prediction for image_2025-06-10_160123977.png took 0.0060 seconds.
+2025-06-10 16:01:24,831 - __main__ - INFO - Deleted uploaded file: static/uploads\image_2025-06-10_160123977.png
+2025-06-10 16:01:24,831 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2025 16:01:24] "POST /api/predict HTTP/1.1" 200 -
+2025-06-10 16:01:49,643 - __main__ - INFO - Prediction for image_2025-06-10_160148613.png took 0.0172 seconds.
+2025-06-10 16:01:49,644 - __main__ - INFO - Deleted uploaded file: static/uploads\image_2025-06-10_160148613.png
+2025-06-10 16:01:49,644 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2025 16:01:49] "POST /api/predict HTTP/1.1" 200 -
+2025-06-10 16:01:58,786 - __main__ - INFO - Prediction for image_2025-06-10_160158151.png took 0.0050 seconds.
+2025-06-10 16:01:58,786 - __main__ - INFO - Deleted uploaded file: static/uploads\image_2025-06-10_160158151.png
+2025-06-10 16:01:58,787 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2025 16:01:58] "POST /api/predict HTTP/1.1" 200 -
+2025-06-10 16:02:11,524 - __main__ - INFO - Prediction for image_2025-06-10_160210729.png took 0.0060 seconds.
+2025-06-10 16:02:11,524 - __main__ - INFO - Deleted uploaded file: static/uploads\image_2025-06-10_160210729.png
+2025-06-10 16:02:11,525 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2025 16:02:11] "POST /api/predict HTTP/1.1" 200 -
+2025-06-10 16:02:20,631 - __main__ - INFO - Prediction for image_2025-06-10_160220111.png took 0.0050 seconds.
+2025-06-10 16:02:20,632 - __main__ - INFO - Deleted uploaded file: static/uploads\image_2025-06-10_160220111.png
+2025-06-10 16:02:20,632 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2025 16:02:20] "POST /api/predict HTTP/1.1" 200 -
+2025-06-10 16:02:31,323 - __main__ - INFO - Prediction for image_2025-06-10_160230460.png took 0.0050 seconds.
+2025-06-10 16:02:31,323 - __main__ - INFO - Deleted uploaded file: static/uploads\image_2025-06-10_160230460.png
+2025-06-10 16:02:31,324 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2025 16:02:31] "POST /api/predict HTTP/1.1" 200 -
+2025-06-10 16:02:47,280 - __main__ - INFO - Prediction for image_2025-06-10_160246787.png took 0.0050 seconds.
+2025-06-10 16:02:47,281 - __main__ - INFO - Deleted uploaded file: static/uploads\image_2025-06-10_160246787.png
+2025-06-10 16:02:47,281 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2025 16:02:47] "POST /api/predict HTTP/1.1" 200 -
+2025-06-10 16:02:56,295 - __main__ - INFO - Prediction for image_2025-06-10_160255544.png took 0.0060 seconds.
+2025-06-10 16:02:56,296 - __main__ - INFO - Deleted uploaded file: static/uploads\image_2025-06-10_160255544.png
+2025-06-10 16:02:56,297 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2025 16:02:56] "POST /api/predict HTTP/1.1" 200 -
+2025-06-15 00:04:22,041 - __main__ - INFO - Starting application initialization...
+2025-06-15 00:04:22,052 - __main__ - INFO - Model and scaler loaded successfully.
+2025-06-15 00:04:22,053 - __main__ - INFO - Application ready to receive requests.
+2025-06-15 00:04:22,963 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.23:5000
+2025-06-15 00:04:22,963 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-15 00:04:28,082 - __main__ - INFO - Prediction for im15.png took 0.0548 seconds.
+2025-06-15 00:04:28,083 - __main__ - INFO - Deleted uploaded file: static/uploads\im15.png
+2025-06-15 00:04:28,084 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 00:04:28] "POST /api/predict HTTP/1.1" 200 -
+2025-06-15 00:04:30,513 - __main__ - INFO - Prediction for im16.png took 0.0050 seconds.
+2025-06-15 00:04:30,513 - __main__ - INFO - Deleted uploaded file: static/uploads\im16.png
+2025-06-15 00:04:30,514 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 00:04:30] "POST /api/predict HTTP/1.1" 200 -
+2025-06-15 00:05:13,035 - __main__ - INFO - Prediction for im17.png took 0.0050 seconds.
+2025-06-15 00:05:13,035 - __main__ - INFO - Deleted uploaded file: static/uploads\im17.png
+2025-06-15 00:05:13,036 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 00:05:13] "POST /api/predict HTTP/1.1" 200 -
+2025-06-15 00:15:47,726 - __main__ - INFO - Starting application initialization...
+2025-06-15 00:15:47,737 - __main__ - INFO - Model and scaler loaded successfully.
+2025-06-15 00:15:47,738 - __main__ - INFO - Application ready to receive requests.
+2025-06-15 00:15:48,620 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.23:5000
+2025-06-15 00:15:48,621 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-15 00:17:42,085 - __main__ - INFO - Prediction for im297.png took 0.0050 seconds.
+2025-06-15 00:17:42,086 - __main__ - INFO - Deleted uploaded file: static/uploads\im297.png
+2025-06-15 00:17:42,087 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 00:17:42] "POST /api/predict HTTP/1.1" 200 -
+2025-06-15 00:18:00,529 - __main__ - INFO - Prediction for S139_002_00000011.png took 0.0399 seconds.
+2025-06-15 00:18:00,530 - __main__ - INFO - Deleted uploaded file: static/uploads\S139_002_00000011.png
+2025-06-15 00:18:00,531 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 00:18:00] "POST /api/predict HTTP/1.1" 200 -
+2025-06-15 00:18:13,874 - __main__ - INFO - Prediction for S156_002_00000020.png took 0.0050 seconds.
+2025-06-15 00:18:13,875 - __main__ - INFO - Deleted uploaded file: static/uploads\S156_002_00000020.png
+2025-06-15 00:18:13,876 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 00:18:13] "POST /api/predict HTTP/1.1" 200 -
+2025-06-15 00:18:26,181 - __main__ - INFO - Prediction for S160_006_00000009.png took 0.0050 seconds.
+2025-06-15 00:18:26,182 - __main__ - INFO - Deleted uploaded file: static/uploads\S160_006_00000009.png
+2025-06-15 00:18:26,182 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 00:18:26] "POST /api/predict HTTP/1.1" 200 -
+2025-06-15 00:18:30,127 - __main__ - INFO - Prediction for S505_002_00000019.png took 0.0050 seconds.
+2025-06-15 00:18:30,128 - __main__ - INFO - Deleted uploaded file: static/uploads\S505_002_00000019.png
+2025-06-15 00:18:30,128 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 00:18:30] "POST /api/predict HTTP/1.1" 200 -
+2025-06-15 00:18:34,987 - __main__ - INFO - Prediction for im1.png took 0.0050 seconds.
+2025-06-15 00:18:34,987 - __main__ - INFO - Deleted uploaded file: static/uploads\im1.png
+2025-06-15 00:18:34,988 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 00:18:34] "POST /api/predict HTTP/1.1" 200 -
+2025-06-15 00:18:41,632 - __main__ - INFO - Prediction for im13.png took 0.0050 seconds.
+2025-06-15 00:18:41,633 - __main__ - INFO - Deleted uploaded file: static/uploads\im13.png
+2025-06-15 00:18:41,633 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 00:18:41] "POST /api/predict HTTP/1.1" 200 -
+2025-06-15 00:18:45,621 - __main__ - INFO - Prediction for im151.png took 0.0040 seconds.
+2025-06-15 00:18:45,622 - __main__ - INFO - Deleted uploaded file: static/uploads\im151.png
+2025-06-15 00:18:45,622 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 00:18:45] "POST /api/predict HTTP/1.1" 200 -
+2025-06-15 00:20:15,158 - __main__ - INFO - Starting application initialization...
+2025-06-15 00:20:15,168 - __main__ - INFO - Model and scaler loaded successfully.
+2025-06-15 00:20:15,169 - __main__ - INFO - Application ready to receive requests.
+2025-06-15 00:20:16,070 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.23:5000
+2025-06-15 00:20:16,071 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-15 00:20:30,635 - __main__ - INFO - Prediction for im8.png took 0.0050 seconds.
+2025-06-15 00:20:30,636 - __main__ - INFO - Deleted uploaded file: static/uploads\im8.png
+2025-06-15 00:20:30,637 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 00:20:30] "POST /api/predict HTTP/1.1" 200 -
+2025-06-15 00:20:35,722 - __main__ - INFO - Prediction for im74.png took 0.0040 seconds.
+2025-06-15 00:20:35,723 - __main__ - INFO - Deleted uploaded file: static/uploads\im74.png
+2025-06-15 00:20:35,723 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 00:20:35] "POST /api/predict HTTP/1.1" 200 -
+2025-06-15 00:20:49,888 - __main__ - INFO - Prediction for im16.png took 0.0040 seconds.
+2025-06-15 00:20:49,889 - __main__ - INFO - Deleted uploaded file: static/uploads\im16.png
+2025-06-15 00:20:49,889 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 00:20:49] "POST /api/predict HTTP/1.1" 200 -
+2025-06-15 00:23:48,258 - __main__ - INFO - Starting application initialization...
+2025-06-15 00:23:48,269 - __main__ - INFO - Model and scaler loaded successfully.
+2025-06-15 00:23:48,269 - __main__ - INFO - Application ready to receive requests.
+2025-06-15 00:23:49,157 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.23:5000
+2025-06-15 00:23:49,157 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-15 00:23:57,933 - __main__ - INFO - Prediction for im8.png took 0.0050 seconds.
+2025-06-15 00:23:57,934 - __main__ - INFO - Deleted uploaded file: static/uploads\im8.png
+2025-06-15 00:23:57,934 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 00:23:57] "POST /api/predict HTTP/1.1" 200 -
+2025-06-15 00:24:01,034 - __main__ - INFO - Prediction for im0.png took 0.0050 seconds.
+2025-06-15 00:24:01,034 - __main__ - INFO - Deleted uploaded file: static/uploads\im0.png
+2025-06-15 00:24:01,035 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 00:24:01] "POST /api/predict HTTP/1.1" 200 -
+2025-06-15 00:24:04,259 - __main__ - INFO - Prediction for im14.png took 0.0050 seconds.
+2025-06-15 00:24:04,260 - __main__ - INFO - Deleted uploaded file: static/uploads\im14.png
+2025-06-15 00:24:04,260 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 00:24:04] "POST /api/predict HTTP/1.1" 200 -
+2025-06-15 00:24:09,280 - __main__ - INFO - Prediction for im214.png took 0.0050 seconds.
+2025-06-15 00:24:09,281 - __main__ - INFO - Deleted uploaded file: static/uploads\im214.png
+2025-06-15 00:24:09,281 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 00:24:09] "POST /api/predict HTTP/1.1" 200 -
+2025-06-15 00:24:25,397 - __main__ - INFO - Prediction for im64.png took 0.0059 seconds.
+2025-06-15 00:24:25,398 - __main__ - INFO - Deleted uploaded file: static/uploads\im64.png
+2025-06-15 00:24:25,398 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 00:24:25] "POST /api/predict HTTP/1.1" 200 -
+2025-06-15 00:24:29,231 - __main__ - INFO - Prediction for im14.png took 0.0050 seconds.
+2025-06-15 00:24:29,232 - __main__ - INFO - Deleted uploaded file: static/uploads\im14.png
+2025-06-15 00:24:29,232 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 00:24:29] "POST /api/predict HTTP/1.1" 200 -
+2025-06-15 00:24:32,485 - __main__ - INFO - Prediction for im87.png took 0.0050 seconds.
+2025-06-15 00:24:32,486 - __main__ - INFO - Deleted uploaded file: static/uploads\im87.png
+2025-06-15 00:24:32,487 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 00:24:32] "POST /api/predict HTTP/1.1" 200 -
