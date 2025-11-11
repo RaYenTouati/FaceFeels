@@ -9,7 +9,7 @@ A **Flask web interface** allows users to drag and drop an image and instantly s
 
 ## Features
 
-- Detects 7 basic emotions from facial images.
+- Detects 7 basic emotions from facial images, providing the **probability percentage for each emotion**.
 - Web interface for instant prediction.
 - Uses classic machine learning methods: HOG + SVM.
 - Provides probability scores for each emotion.
